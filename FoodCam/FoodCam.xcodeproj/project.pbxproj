@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3697BEC247EBA29003DE94B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3697BEB247EBA29003DE94B /* AppDelegate.swift */; };
+		F3697BEE247EBA29003DE94B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3697BED247EBA29003DE94B /* SceneDelegate.swift */; };
+		F3697BF0247EBA29003DE94B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3697BEF247EBA29003DE94B /* ContentView.swift */; };
+		F3697BF2247EBA2F003DE94B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3697BF1247EBA2F003DE94B /* Assets.xcassets */; };
+		F3697BF5247EBA2F003DE94B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3697BF4247EBA2F003DE94B /* Preview Assets.xcassets */; };
+		F3697BF8247EBA2F003DE94B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3697BF6247EBA2F003DE94B /* LaunchScreen.storyboard */; };
+		F3697C03247EBA2F003DE94B /* FoodCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3697C02247EBA2F003DE94B /* FoodCamTests.swift */; };
+		F3697C0E247EBA2F003DE94B /* FoodCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3697C0D247EBA2F003DE94B /* FoodCamUITests.swift */; };
+		F3DCD30A24820A1F00F19FB0 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCD30924820A1F00F19FB0 /* Camera.swift */; };
+		F3DCD30C24820B9000F19FB0 /* PhotoTaking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCD30B24820B9000F19FB0 /* PhotoTaking.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3697BFF247EBA2F003DE94B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3697BE0247EBA29003DE94B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3697BE7247EBA29003DE94B;
+			remoteInfo = FoodCam;
+		};
+		F3697C0A247EBA2F003DE94B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3697BE0247EBA29003DE94B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3697BE7247EBA29003DE94B;
+			remoteInfo = FoodCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3697BE8247EBA29003DE94B /* FoodCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3697BEB247EBA29003DE94B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3697BED247EBA29003DE94B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3697BEF247EBA29003DE94B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3697BF1247EBA2F003DE94B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3697BF4247EBA2F003DE94B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3697BF7247EBA2F003DE94B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3697BF9247EBA2F003DE94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3697BFE247EBA2F003DE94B /* FoodCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3697C02247EBA2F003DE94B /* FoodCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCamTests.swift; sourceTree = "<group>"; };
+		F3697C04247EBA2F003DE94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3697C09247EBA2F003DE94B /* FoodCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3697C0D247EBA2F003DE94B /* FoodCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCamUITests.swift; sourceTree = "<group>"; };
+		F3697C0F247EBA2F003DE94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3DCD30924820A1F00F19FB0 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		F3DCD30B24820B9000F19FB0 /* PhotoTaking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTaking.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3697BE5247EBA29003DE94B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3697BFB247EBA2F003DE94B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3697C06247EBA2F003DE94B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3697BDF247EBA29003DE94B = {
+			isa = PBXGroup;
+			children = (
+				F3697BEA247EBA29003DE94B /* FoodCam */,
+				F3697C01247EBA2F003DE94B /* FoodCamTests */,
+				F3697C0C247EBA2F003DE94B /* FoodCamUITests */,
+				F3697BE9247EBA29003DE94B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3697BE9247EBA29003DE94B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3697BE8247EBA29003DE94B /* FoodCam.app */,
+				F3697BFE247EBA2F003DE94B /* FoodCamTests.xctest */,
+				F3697C09247EBA2F003DE94B /* FoodCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3697BEA247EBA29003DE94B /* FoodCam */ = {
+			isa = PBXGroup;
+			children = (
+				F3697BEB247EBA29003DE94B /* AppDelegate.swift */,
+				F3697BED247EBA29003DE94B /* SceneDelegate.swift */,
+				F3697BEF247EBA29003DE94B /* ContentView.swift */,
+				F3697BF1247EBA2F003DE94B /* Assets.xcassets */,
+				F3DCD30924820A1F00F19FB0 /* Camera.swift */,
+				F3DCD30B24820B9000F19FB0 /* PhotoTaking.swift */,
+				F3697BF6247EBA2F003DE94B /* LaunchScreen.storyboard */,
+				F3697BF9247EBA2F003DE94B /* Info.plist */,
+				F3697BF3247EBA2F003DE94B /* Preview Content */,
+			);
+			path = FoodCam;
+			sourceTree = "<group>";
+		};
+		F3697BF3247EBA2F003DE94B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3697BF4247EBA2F003DE94B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3697C01247EBA2F003DE94B /* FoodCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3697C02247EBA2F003DE94B /* FoodCamTests.swift */,
+				F3697C04247EBA2F003DE94B /* Info.plist */,
+			);
+			path = FoodCamTests;
+			sourceTree = "<group>";
+		};
+		F3697C0C247EBA2F003DE94B /* FoodCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3697C0D247EBA2F003DE94B /* FoodCamUITests.swift */,
+				F3697C0F247EBA2F003DE94B /* Info.plist */,
+			);
+			path = FoodCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3697BE7247EBA29003DE94B /* FoodCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3697C12247EBA2F003DE94B /* Build configuration list for PBXNativeTarget "FoodCam" */;
+			buildPhases = (
+				F3697BE4247EBA29003DE94B /* Sources */,
+				F3697BE5247EBA29003DE94B /* Frameworks */,
+				F3697BE6247EBA29003DE94B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodCam;
+			productName = FoodCam;
+			productReference = F3697BE8247EBA29003DE94B /* FoodCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3697BFD247EBA2F003DE94B /* FoodCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3697C15247EBA2F003DE94B /* Build configuration list for PBXNativeTarget "FoodCamTests" */;
+			buildPhases = (
+				F3697BFA247EBA2F003DE94B /* Sources */,
+				F3697BFB247EBA2F003DE94B /* Frameworks */,
+				F3697BFC247EBA2F003DE94B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3697C00247EBA2F003DE94B /* PBXTargetDependency */,
+			);
+			name = FoodCamTests;
+			productName = FoodCamTests;
+			productReference = F3697BFE247EBA2F003DE94B /* FoodCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3697C08247EBA2F003DE94B /* FoodCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3697C18247EBA2F003DE94B /* Build configuration list for PBXNativeTarget "FoodCamUITests" */;
+			buildPhases = (
+				F3697C05247EBA2F003DE94B /* Sources */,
+				F3697C06247EBA2F003DE94B /* Frameworks */,
+				F3697C07247EBA2F003DE94B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3697C0B247EBA2F003DE94B /* PBXTargetDependency */,
+			);
+			name = FoodCamUITests;
+			productName = FoodCamUITests;
+			productReference = F3697C09247EBA2F003DE94B /* FoodCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3697BE0247EBA29003DE94B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Alexis Wei";
+				TargetAttributes = {
+					F3697BE7247EBA29003DE94B = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					F3697BFD247EBA2F003DE94B = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = F3697BE7247EBA29003DE94B;
+					};
+					F3697C08247EBA2F003DE94B = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = F3697BE7247EBA29003DE94B;
+					};
+				};
+			};
+			buildConfigurationList = F3697BE3247EBA29003DE94B /* Build configuration list for PBXProject "FoodCam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3697BDF247EBA29003DE94B;
+			productRefGroup = F3697BE9247EBA29003DE94B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3697BE7247EBA29003DE94B /* FoodCam */,
+				F3697BFD247EBA2F003DE94B /* FoodCamTests */,
+				F3697C08247EBA2F003DE94B /* FoodCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3697BE6247EBA29003DE94B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3697BF8247EBA2F003DE94B /* LaunchScreen.storyboard in Resources */,
+				F3697BF5247EBA2F003DE94B /* Preview Assets.xcassets in Resources */,
+				F3697BF2247EBA2F003DE94B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3697BFC247EBA2F003DE94B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3697C07247EBA2F003DE94B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3697BE4247EBA29003DE94B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DCD30A24820A1F00F19FB0 /* Camera.swift in Sources */,
+				F3697BEC247EBA29003DE94B /* AppDelegate.swift in Sources */,
+				F3DCD30C24820B9000F19FB0 /* PhotoTaking.swift in Sources */,
+				F3697BEE247EBA29003DE94B /* SceneDelegate.swift in Sources */,
+				F3697BF0247EBA29003DE94B /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3697BFA247EBA2F003DE94B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3697C03247EBA2F003DE94B /* FoodCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3697C05247EBA2F003DE94B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3697C0E247EBA2F003DE94B /* FoodCamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3697C00247EBA2F003DE94B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3697BE7247EBA29003DE94B /* FoodCam */;
+			targetProxy = F3697BFF247EBA2F003DE94B /* PBXContainerItemProxy */;
+		};
+		F3697C0B247EBA2F003DE94B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3697BE7247EBA29003DE94B /* FoodCam */;
+			targetProxy = F3697C0A247EBA2F003DE94B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3697BF6247EBA2F003DE94B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3697BF7247EBA2F003DE94B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3697C10247EBA2F003DE94B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3697C11247EBA2F003DE94B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3697C13247EBA2F003DE94B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodCam/Preview Content\"";
+				DEVELOPMENT_TEAM = 4569N5K698;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FoodCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awei.FoodCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3697C14247EBA2F003DE94B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodCam/Preview Content\"";
+				DEVELOPMENT_TEAM = 4569N5K698;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FoodCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awei.FoodCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3697C16247EBA2F003DE94B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodCamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awei.FoodCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodCam.app/FoodCam";
+			};
+			name = Debug;
+		};
+		F3697C17247EBA2F003DE94B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodCamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awei.FoodCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodCam.app/FoodCam";
+			};
+			name = Release;
+		};
+		F3697C19247EBA2F003DE94B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awei.FoodCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodCam;
+			};
+			name = Debug;
+		};
+		F3697C1A247EBA2F003DE94B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awei.FoodCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3697BE3247EBA29003DE94B /* Build configuration list for PBXProject "FoodCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3697C10247EBA2F003DE94B /* Debug */,
+				F3697C11247EBA2F003DE94B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3697C12247EBA2F003DE94B /* Build configuration list for PBXNativeTarget "FoodCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3697C13247EBA2F003DE94B /* Debug */,
+				F3697C14247EBA2F003DE94B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3697C15247EBA2F003DE94B /* Build configuration list for PBXNativeTarget "FoodCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3697C16247EBA2F003DE94B /* Debug */,
+				F3697C17247EBA2F003DE94B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3697C18247EBA2F003DE94B /* Build configuration list for PBXNativeTarget "FoodCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3697C19247EBA2F003DE94B /* Debug */,
+				F3697C1A247EBA2F003DE94B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3697BE0247EBA29003DE94B /* Project object */;
+}
