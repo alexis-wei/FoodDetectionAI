@@ -11,27 +11,33 @@ import SwiftUI
 struct ContentView: View {
     @State private var useCam = false
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .center) {
+            Camera()
             Text("Things.ai")
                 .font(.largeTitle)
                 .fontWeight(.bold)
-            Camera()
             HStack {
-                Text("Finding your best ingredients")
+                Text("Finding the best recipes with your ingredients through artificial intelligence")
                     .font(.subheadline)
-                Spacer()
-                Text("through artificial intelligence")
-                    .font(.subheadline)
+                    .padding()
+                
             }
+            .padding()
             Button(action: {
-                self.useCam.toggle()
+                PhotoTaking()
             }) {
-                Text("Show details")
+                Text("CAMERA")
+                    .font(.custom("Avenir Next", size: 20))
+                    .padding()
+                    .background(Color.pink)
+                    .cornerRadius(40)
+                    .foregroundColor(.white)
             }
             if useCam {
             Text("Launch camera on phone")
                    .font(.largeTitle)
            }
+        
             
         }
     .padding()

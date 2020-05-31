@@ -15,6 +15,13 @@ import UIKit
 
 struct PhotoTaking{
     
+    init(){
+        startSession()
+        askPermission()
+        
+        
+    }
+    
     func askPermission() {
         switch AVCaptureDevice.authorizationStatus(for: .video) {
             case .authorized: // The user has previously granted access to the camera.
@@ -26,13 +33,12 @@ struct PhotoTaking{
                         self.startCamera()
                     }
                 }
-    
-        case .restricted:
-            return
-        case .denied:
-            return
-        @unknown default:
-            return
+            case .restricted:
+                return
+            case .denied:
+                return
+            @unknown default:
+                return
         }
     }
     

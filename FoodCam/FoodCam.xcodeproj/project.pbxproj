@@ -53,6 +53,8 @@
 		F3697C0F247EBA2F003DE94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3DCD30924820A1F00F19FB0 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		F3DCD30B24820B9000F19FB0 /* PhotoTaking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTaking.swift; sourceTree = "<group>"; };
+		F3DCD30E24840B1100F19FB0 /* Avenir.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Avenir.ttc; path = ../../../../../../../../System/Library/Fonts/Avenir.ttc; sourceTree = "<group>"; };
+		F3DCD30F24840BD700F19FB0 /* Avenir Next.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Avenir Next.ttc"; path = "../../../../../../../../System/Library/Fonts/Avenir Next.ttc"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				F3DCD30B24820B9000F19FB0 /* PhotoTaking.swift */,
 				F3697BF6247EBA2F003DE94B /* LaunchScreen.storyboard */,
 				F3697BF9247EBA2F003DE94B /* Info.plist */,
+				F3DCD30D24840AA900F19FB0 /* Fonts */,
 				F3697BF3247EBA2F003DE94B /* Preview Content */,
 			);
 			path = FoodCam;
@@ -140,6 +143,15 @@
 				F3697C0F247EBA2F003DE94B /* Info.plist */,
 			);
 			path = FoodCamUITests;
+			sourceTree = "<group>";
+		};
+		F3DCD30D24840AA900F19FB0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F3DCD30F24840BD700F19FB0 /* Avenir Next.ttc */,
+				F3DCD30E24840B1100F19FB0 /* Avenir.ttc */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

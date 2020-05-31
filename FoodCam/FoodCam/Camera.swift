@@ -11,11 +11,9 @@ import SwiftUI
 struct Camera: View {
     var body: some View {
         
-        Image("film-camera-pngrepo-com")
-            .padding(20)
-            .overlay(
-                Rectangle().stroke(Color.white, lineWidth: 4))
-            .shadow(radius: 5)
+        Image("film-camera-pngrepo-com").resizable()
+            .padding(10)
+            .frame(width: 120, height: 120, alignment: .center)
         
     }
 }
