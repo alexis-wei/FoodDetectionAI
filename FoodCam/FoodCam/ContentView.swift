@@ -9,11 +9,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var useCam = false
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Food.ai")
+            Text("Things.ai")
                 .font(.largeTitle)
                 .fontWeight(.bold)
+            Camera()
             HStack {
                 Text("Finding your best ingredients")
                     .font(.subheadline)
@@ -21,6 +23,16 @@ struct ContentView: View {
                 Text("through artificial intelligence")
                     .font(.subheadline)
             }
+            Button(action: {
+                self.useCam.toggle()
+            }) {
+                Text("Show details")
+            }
+            if useCam {
+            Text("Launch camera on phone")
+                   .font(.largeTitle)
+           }
+            
         }
     .padding()
     }
