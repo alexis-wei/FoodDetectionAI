@@ -9,7 +9,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var useCam = false
+    
+    @State private var useCam: Bool = false
+    
     var body: some View {
         VStack(alignment: .center) {
             Camera()
@@ -20,28 +22,33 @@ struct ContentView: View {
                 Text("Finding the best recipes with your ingredients through artificial intelligence")
                     .font(.subheadline)
                     .padding()
-                
+                Button(action: {
+                    print("i wanna take pictures")
+                    PhotoTaking()
+                    
+                 }) {
+                     Text("CAMERA").fixedSize()
+                         .font(.custom("Avenir Next", size: 20))
+                         .padding()
+                         .background(Color.pink)
+                         .cornerRadius(40)
+                         .foregroundColor(.white)
+                 }
+                 if useCam {
+                 Text("Launch camera on phone")
+                        .font(.largeTitle)
+                }
             }
             .padding()
-            Button(action: {
-                PhotoTaking()
-            }) {
-                Text("CAMERA")
-                    .font(.custom("Avenir Next", size: 20))
-                    .padding()
-                    .background(Color.pink)
-                    .cornerRadius(40)
-                    .foregroundColor(.white)
-            }
-            if useCam {
-            Text("Launch camera on phone")
-                   .font(.largeTitle)
-           }
+            
         
             
         }
     .padding()
     }
+    
+    
+    
     
     
 }

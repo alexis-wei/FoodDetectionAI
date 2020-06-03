@@ -17,6 +17,7 @@
 		F3697C0E247EBA2F003DE94B /* FoodCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3697C0D247EBA2F003DE94B /* FoodCamUITests.swift */; };
 		F3DCD30A24820A1F00F19FB0 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCD30924820A1F00F19FB0 /* Camera.swift */; };
 		F3DCD30C24820B9000F19FB0 /* PhotoTaking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCD30B24820B9000F19FB0 /* PhotoTaking.swift */; };
+		F3DCD31124843BAE00F19FB0 /* SwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCD31024843BAE00F19FB0 /* SwiftUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		F3DCD30B24820B9000F19FB0 /* PhotoTaking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTaking.swift; sourceTree = "<group>"; };
 		F3DCD30E24840B1100F19FB0 /* Avenir.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Avenir.ttc; path = ../../../../../../../../System/Library/Fonts/Avenir.ttc; sourceTree = "<group>"; };
 		F3DCD30F24840BD700F19FB0 /* Avenir Next.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Avenir Next.ttc"; path = "../../../../../../../../System/Library/Fonts/Avenir Next.ttc"; sourceTree = "<group>"; };
+		F3DCD31024843BAE00F19FB0 /* SwiftUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				F3697BF1247EBA2F003DE94B /* Assets.xcassets */,
 				F3DCD30924820A1F00F19FB0 /* Camera.swift */,
 				F3DCD30B24820B9000F19FB0 /* PhotoTaking.swift */,
+				F3DCD31024843BAE00F19FB0 /* SwiftUIViewController.swift */,
 				F3697BF6247EBA2F003DE94B /* LaunchScreen.storyboard */,
 				F3697BF9247EBA2F003DE94B /* Info.plist */,
 				F3DCD30D24840AA900F19FB0 /* Fonts */,
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3DCD31124843BAE00F19FB0 /* SwiftUIViewController.swift in Sources */,
 				F3DCD30A24820A1F00F19FB0 /* Camera.swift in Sources */,
 				F3697BEC247EBA29003DE94B /* AppDelegate.swift in Sources */,
 				F3DCD30C24820B9000F19FB0 /* PhotoTaking.swift in Sources */,

@@ -2,13 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) needs access to the Library to Upload Photos onto FoodCam</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Avenir.ttf</string>
 		<string>Avenir Next.ttf</string>
 	</array>
 	<key>NSCameraUsageDescription</key>
-	<string>&quot;Camera Needed&quot;</string>
+	<string>${PRODUCT_NAME} need access to the camera to take pictures for food identification</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

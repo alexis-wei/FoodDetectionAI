@@ -13,34 +13,66 @@ import UIKit
 
 
 
-struct PhotoTaking{
+struct PhotoTaking: View {
     
+    @State var alertVisible: Bool = false
+    
+
     init(){
-        startSession()
         askPermission()
-        
-        
     }
+    
+    var body: some View {
+        
+        return Text("Hello")
+            .alert(isPresented: $alertVisible) {
+            Alert (title: Text("Camera access required to take photos"),
+                   message: Text("Go to Settings?"),
+                   primaryButton: .default(Text("Settings"), action: {
+                       UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!)
+                   }),
+                   secondaryButton: .default(Text("Cancel")))
+               }
+            
+            
+    }
+    
+    
     
     func askPermission() {
         switch AVCaptureDevice.authorizationStatus(for: .video) {
             case .authorized: // The user has previously granted access to the camera.
+                print("authorized")
                 self.startSession()
     
             case .notDetermined: // The user has not yet been asked for camera access.
+                print("not determined")
                 AVCaptureDevice.requestAccess(for: .video) { granted in
                     if granted {
-                        self.startCamera()
+                        self.startSession()
                     }
                 }
             case .restricted:
-                return
+                print("restricted")
+                self.goToSettings()
+            
             case .denied:
-                return
+                print("denied")
+                self.goToSettings()
+            
             @unknown default:
                 return
         }
     }
+    
+    func goToSettings(){
+        print(alertVisible)
+        self.alertVisible = true
+        print(alertVisible)
+
+    }
+    
+
     
     func startSession(){
         let captureSession = AVCaptureSession()
@@ -62,14 +94,7 @@ struct PhotoTaking{
 
     }
     
-    func startCamera(){
-        
-        
-    }
     
-    var body: some View {
-        Text("Pls Safe me From Failure")
-    }
     
 
 //
@@ -94,12 +119,15 @@ struct PhotoTaking{
 //    }
     
 
+
 }
+
+
 
 
 
 struct PhotoTaking_Previews: PreviewProvider {
     static var previews: some View {
-        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+        PhotoTaking()
     }
 }
